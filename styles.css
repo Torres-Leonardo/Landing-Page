@@ -31,6 +31,70 @@ body {
     background: white;
 }
 
+.FLOTANTES .WHATSAPP
+{
+    display:block;
+    width:70px;
+    height:70px;
+    color: #fff;;
+    position:fixed;
+    right:20px;
+    top: 55px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+    margin-right: -20px;
+}
+.FLOTANTES .FACEBOOK
+{
+    display:block;
+    width:70px;
+    height:70px;
+    color: #fff;;
+    position:fixed;
+    right:-10px;
+    top:100px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+    margin-right: 10px;
+}
+.FLOTANTES .INSTAGRAM
+{
+    display:block;
+    width:55px;
+    height:55px;
+    color: #fff;;
+    position:fixed;
+    right:-3px;
+    top:155px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+    margin-right: 10px;
+}
+.ACERCA
+{
+    float: right;
+    display: inline-block;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    background-color: #00A6FB;
+    border:#00A6FB;
+    font-family: "Lato";
+    font-size: 16px;
+    color:white;
+    outline: none;
+    cursor: pointer;
+    margin: auto;
+    margin-right: 10px;
+    margin-top: 5px;
+}
 /* UTILIDADES */
 img
 {
@@ -120,8 +184,13 @@ nav
     position: absolute;
     top: 0;
     width: 100%;
-    height: 5rem;
-    padding: .5rem 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #00A6FB;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 300ms case;
 }
 nav .contenedor 
 {
@@ -172,7 +241,7 @@ nav .contenedor
     margin-right: 10px;
     margin-top: 5px;
 }
-.ACERCA
+.report
 {
     float: right;
     display: inline-block;
@@ -185,6 +254,20 @@ nav .contenedor
     font-family: "Lato";
     font-size: 16px;
     color:white;
+    outline: none;
+    cursor: pointer;
+    margin: auto;
+}
+.containerHistory
+{
+    float: right;
+    display: inline-block;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    font-size: 16px;
+    color:rgb(66, 17, 240);
     outline: none;
     cursor: pointer;
     margin: auto;
